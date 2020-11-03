@@ -1,1 +1,1 @@
-# GuessMyPass  *Educational Purpose Only*
+# GuessMyPass - Educational Purpose Only
