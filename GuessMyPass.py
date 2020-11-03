@@ -32,7 +32,7 @@ real_password = str(input("Please Enter Password:  "))   #Input function to allo
 
 guess_password = ""                                      #Empty string to store our random generated password
 
-while guess_password != real_password:
+while guess_password != list(real_password):
     guess_password = random.choices(char_list, k=len(real_password))   #Return "k" sized list of elements chosen from the char_list with replacement
     print("Attempting to Guess Password: " + str(guess_password))      #Showcase all the random guess password combination attempts 
 
